@@ -1,0 +1,6 @@
+node_modules/
+.env.json
+*.xml
+data/
+.DS_Store
+fixtures/*_outputs.geojson

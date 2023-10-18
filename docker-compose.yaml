@@ -1,0 +1,10 @@
+version: '3'
+services:
+  miubuntu:
+    image: developmentseed/miubuntu:v1
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+        - ./:/mnt
+    working_dir: /mnt
